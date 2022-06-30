@@ -1,0 +1,231 @@
+/* ------------------------- AgGrid : Start ------------------------- */
+.ag-header-group-cell-with-group {
+    /*background-color: #00e7b1;*/
+}
+.ag-header-group-cell-label {
+    justify-content: center;
+}
+.ag-header-cell-label {
+    /*justify-content: center;*/
+}
+/* ------------------------- AgGrid : End ------------------------- */
+
+/* ------------------------- AgGrid Tooltip : Start ------------------------- */
+.grid-tooltip {
+    position:absolute;
+    z-index:9900000;
+    min-width:220px;
+    max-width:400px;
+    padding:18px;
+    border-width:2px;
+    border-style:solid;
+    border-radius:2px;
+    opacity:1;
+    filter:alpha(opacity=100);
+    outline:none;
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+    background-color: white;
+}
+.grid-tooltip-content {
+    font-size:13px;
+    line-height:1.5;
+}
+.grid-tooltip.ag-tooltip-hiding {
+    opacity: 0;
+}
+/* ------------------------- AgGrid Tooltip : End ------------------------- */
+
+/* ------------------------- Main Tooltip : Start ------------------------- */
+.main-tooltip {
+    z-index:9900000 !important;
+    min-width: 220px;
+    max-width: 400px;
+    padding:18px;
+    border-width:2px !important;
+    border-style:solid !important;
+    border-radius:2px !important;
+    opacity:1 !important;
+    filter:alpha(opacity=100);
+    outline:none;
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+}
+/* ------------------------- Main Tooltip : End ------------------------- */
+
+/* ------------------------- Modal : Start ------------------------- */
+.modal {
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    border-radius: 10px;
+    width: 360px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.overlay {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+}
+
+.panel-header {
+    background:#434a54;
+}
+.panel-title {
+    padding:17px 20px;
+    font-size:16px;
+    color:#fff;
+}
+.panel-body {
+    overflow:auto;
+    padding:0;
+    border-top-width:0;
+    font-size:12px;
+    background-color:#ffffff;
+    color:#000000;
+}
+.panel-tool {
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+.panel-tool .panel-tool-close {
+    display:inline-block;
+    width:12px;
+    height:12px;
+    background:url(../images/img_develop.png) no-repeat;
+    background-position:-122px -124px;
+}
+.panel-body .dialog_body {
+    padding:20px 20px 0 20px;
+}
+.panel-body .dialog_footer {
+    padding:20px;
+    border-top:1px solid #dadada;
+    text-align:right;
+}
+.panel-body .dialog_footer .btn ~ .btn {
+    margin-left:7px;
+}
+/* ------------------------- Modal : End ------------------------- */
+
+
+
+.loader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:100000;
+}
+.loader .loader-inner {
+    display:inline-block;
+    margin-top:400px;
+    margin-left:50%;
+}
+.loader .txt_loader {
+    margin:46px 0 0 0;
+    font-size:16px;
+    color:#000000;
+    text-align:center;
+    letter-spacing:2px;
+}
+@-webkit-keyframes ball-spin-fade-loader {
+    30% {
+        opacity:0.3;
+        -webkit-transform:scale(0.4);
+        transform:scale(0.4);
+    }
+    100% {
+        opacity:1;
+        -webkit-transform:scale(1);
+        transform:scale(1);
+    }
+}
+@keyframes ball-spin-fade-loader {
+    30% {
+        opacity:0.1;
+        -webkit-transform:scale(0.4);
+        transform:scale(0.4);
+    }
+    100% {
+        opacity:1;
+        -webkit-transform:scale(1);
+        transform:scale(1);
+    }
+}
+.ball-spin-fade-loader {
+    position:relative;
+    top:-10px;
+    left:-10px;
+}
+.ball-spin-fade-loader>div:nth-child(1) {
+    top:25px;
+    left:0;
+    -webkit-animation:ball-spin-fade-loader 1s -0.96s infinite linear;
+    animation:ball-spin-fade-loader 1s -0.96s infinite linear;
+}
+.ball-spin-fade-loader>div:nth-child(2) {
+    top:17.04545px;
+    left:17.04545px;
+    -webkit-animation:ball-spin-fade-loader 1s -0.84s infinite linear;
+    animation:ball-spin-fade-loader 1s -0.84s infinite linear;
+}
+.ball-spin-fade-loader>div:nth-child(3) {
+    top:0;
+    left:25px;
+    -webkit-animation:ball-spin-fade-loader 1s -0.72s infinite linear;
+    animation:ball-spin-fade-loader 1s -0.72s infinite linear;
+}
+.ball-spin-fade-loader>div:nth-child(4) {
+    top:-17.04545px;
+    left:17.04545px;
+    -webkit-animation:ball-spin-fade-loader 1s -0.6s infinite linear;
+    animation:ball-spin-fade-loader 1s -0.6s infinite linear;
+}
+.ball-spin-fade-loader>div:nth-child(5) {
+    top:-25px;
+    left:0;
+    -webkit-animation:ball-spin-fade-loader 1s -0.48s infinite linear;
+    animation:ball-spin-fade-loader 1s -0.48s infinite linear;
+}
+.ball-spin-fade-loader>div:nth-child(6) {
+    top:-17.04545px;
+    left:-17.04545px;
+    -webkit-animation:ball-spin-fade-loader 1s -0.36s infinite linear;
+    animation:ball-spin-fade-loader 1s -0.36s infinite linear;
+}
+.ball-spin-fade-loader>div:nth-child(7) {
+    top:0;
+    left:-25px;
+    -webkit-animation:ball-spin-fade-loader 1s -0.24s infinite linear;
+    animation:ball-spin-fade-loader 1s -0.24s infinite linear;
+}
+.ball-spin-fade-loader>div:nth-child(8) {
+    top:17.04545px;
+    left:-17.04545px;
+    -webkit-animation:ball-spin-fade-loader 1s -0.12s infinite linear;
+    animation:ball-spin-fade-loader 1s -0.12s infinite linear;
+}
+.ball-spin-fade-loader>div {
+    position:absolute;
+    width:15px;
+    height:15px;
+    margin:2px;
+    background-color:#000000;
+    border-radius:100%;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both;
+}

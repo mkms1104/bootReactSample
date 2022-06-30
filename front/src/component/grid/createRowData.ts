@@ -1,0 +1,3 @@
+class CreateRowData {}
+
+export { CreateRowData };

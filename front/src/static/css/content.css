@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ------------------------- Dialog_Apply_Sales : Start ------------------------- */
+.dialog_body .dialog_apply_sales {
+    margin-bottom:30px;
+}
+.dialog_body .dialog_apply_sales .txt_body_sub {
+    margin:20px 0 30px 0;
+    line-height:1.5;
+}
+/* ------------------------- Dialog_Apply_Sales : End ------------------------- */
+
+
+
+
+/* ------------------------- 상품 입찰가란?_다이얼로그 : Start ------------------------- */
+.dialog_body .wrap_desc {
+    padding:14px 20px;
+    margin-bottom:30px;
+    border:1px solid #f3f3f3;
+    font-size:14px;
+}
+.dialog_body .wrap_desc .box_desc {
+    margin-bottom:20px;
+}
+.dialog_body .wrap_desc .box_desc:last-child {
+    margin-bottom:0;
+}
+.dialog_body .wrap_desc .box_desc .txt_logo {
+    color:#333;
+}
+.dialog_body .wrap_desc .box_desc01 {
+    line-height:1.75;
+    font-size:16px;
+    color:#666666;
+    word-break:keep-all;
+}
+
+.dialog_body .wrap_desc .box_desc02 {
+    font-size:14px;
+    color:#666666;
+}
+.dialog_body .wrap_desc .box_desc02 .txt_body_sub {
+    margin-right:10px;
+    vertical-align:middle;
+}
+.dialog_body .wrap_desc .box_desc02 .txt_body_sub .ico_tooltip {
+    margin:-2px 0 0 0;
+}
+.dialog_body .wrap_desc .box_desc03 {
+    font-size:14px;
+    color:#666666;
+}
+.dialog_body .wrap_desc .box_desc03 .txt_body_sub {
+    margin-bottom:10px;
+}
+.dialog_body .wrap_desc .box_desc03 .box_keyword {
+    height:48px;
+    padding:0 16px;
+    border:1px solid #dadada;
+    font-size:16px;
+    line-height:46px;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+    color:#666666;
+}
+/* ------------------------- 상품 입찰가란?_다이얼로그 : End ------------------------- */
+
+
+
+
+
+/* ------------------------- 광고 등록 결과_다이얼로그 : Start ------------------------- */
+.wrap_result {
+    margin:20px 0 30px 0;
+}
+.wrap_result .box_result {
+    position:relative;
+    min-height:81px;
+    margin-bottom:10px;
+    border:1px solid #f3f3f3;
+}
+.wrap_result .box_result .box_header {
+    display:inline-block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    width:83px;
+}
+.wrap_result .box_header .ico {
+    display:inline-block;
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:30px;
+    height:30px;
+    margin:-15px 0 0 -15px;
+    background:url(../images/img_layout.png) no-repeat;
+}
+.wrap_result .box_result .box_body {
+    display:inline-block;
+    width:calc(100% - 83px);
+    padding:18px 24px;
+    margin-left:83px;
+}
+.wrap_result .box_result .box_body .txt_body,
+.wrap_result .box_result .box_body .txt_body_sub {
+    font-weight:bold;
+    font-size:15px;
+    color:#666666;
+}
+.wrap_result .box_result .box_body .txt_body {
+    margin-bottom:12px;
+}
+.wrap_result .box_result .box_body .txt_body_sub {
+    line-height:1.5;
+    word-break:keep-all;
+}
+
+.wrap_result .box_result.success .box_header {
+    background-color:#29cb8c;
+}
+.wrap_result .box_result.success .box_header .ico {
+    background-position:-261px -612px;
+}
+.wrap_result .box_result.success .box_body {
+    background-color:#f1fffa;
+}
+.wrap_result .box_result.success .box_body .txt_body {
+    color:#29cb8c;
+}
+
+
+.wrap_result .box_result.warning .box_header {
+    background-color:#f49271;
+}
+.wrap_result .box_result.warning .box_header .ico {
+    background-position:-382px -612px;
+}
+.wrap_result .box_result.warning .box_body {
+    background-color:#fff8f5;
+}
+.wrap_result .box_result.warning .box_body .txt_body {
+    color:#f49271;
+}
+
+
+.wrap_result .box_result.error .box_header {
+    background-color:#f86f82;
+}
+.wrap_result .box_result.error .box_header .ico {
+    background-position:-322px -612px;
+}
+.wrap_result .box_result.error .box_body {
+    background-color:#fff8f9;
+}
+.wrap_result .box_result.error .box_body .txt_body {
+    color:#f86f82;
+}
+/* ------------------------- 광고 등록 결과_다이얼로그 : End ------------------------- */
+
+
+
+/* ------------------------- 전시권 구매_다이얼로그 : Start ------------------------- */
+.wrap_payment {
+    margin:-20px -30px 0;
+}
+.wrap_payment > .box_header {
+    padding:15px 10px;
+    border-bottom:1px solid #f3f3f3;
+}
+.wrap_payment > .box_header h2.tit_sub {
+    text-align:center;
+    font-size:14px;
+}
+.wrap_payment .box_header h3.tit_sub {
+    font-size:16px;
+}
+.dialog_body .wrap_payment .tab_content {
+    padding:0;
+}
+
+.wrap_price {
+    display:table;
+    width:100%;
+    padding:40px 45px;
+    border-bottom:1px solid #f3f3f3;
+}
+.wrap_price .box_header,
+.wrap_price .box_body {
+    display:inline-block;
+    float:left;
+    vertical-align:middle;
+}
+.wrap_price .box_header {
+    display:table-cell;
+    width:30%;
+    padding-top:5px;
+}
+.wrap_price .box_header .ico {
+    display:inline-block;
+    width:30px;
+    height:23px;
+    margin-right:10px;
+    background:url(../images/img_layout.png) no-repeat;
+    background-position:-30px -870px;
+    vertical-align:middle;
+}
+.wrap_price .box_header .tit_sub {
+    display:inline-block;
+    vertical-align:middle;
+}
+.wrap_price .box_body {
+    display:table-cell;
+    width:70%;
+    text-align:right;
+}
+.wrap_price .box_body .txt_body_sub {
+    display:inline-block;
+    margin:5px 0;
+    font-size:18px;
+    color:#999999;
+    vertical-align:middle;
+}
+.wrap_price .box_body .txt_sub_desc {
+    display:inline-block;
+    margin-left:10px;
+    font-size:28px;
+    font-weight:bold;
+    vertical-align:middle;
+}
+.wrap_price .box_body .txt_sub {
+    display:block;
+    margin-top:10px;
+    color:#999;
+}
+
+
+.wrap_price_info {
+/*    padding:30px;*/
+    padding-bottom:30px;
+}
+.wrap_price_info > .txt_body {
+    padding:30px 30px 0;
+    margin-bottom:30px;
+    line-height:1.5;
+}
+
+
+.btn_area_expand {
+    margin:-21px -30px;
+    border-top:1px solid #e3e3e3;
+}
+.btn_area_expand .btn {
+    float:left;
+    width:50% !important;
+    margin:0 !important;
+    -webkit-border-radius:0 !important;
+    -moz-border-radius:0 !important;
+    border-radius:0 !important;
+}
+.btn_area_expand .btn.btn_cancel {
+    border:none;
+}
+
+
+.wrap_payment .wrap_txt_box .box_body {
+    padding:5px;
+}
+.wrap_payment .wrap_txt_box .txt_body_sub {
+    margin:5px 0;
+    text-align:center;
+}
+.wrap_payment .box_body > .wrap_txt_box:first-child {
+    border-top:none;
+}
+
+
+.wrap_payment .wrap_help {
+    border-bottom:none;
+}
+.wrap_payment .wrap_help .box_body {
+    border-right:1px solid #f3f3f3;
+    border-left:1px solid #f3f3f3;
+}
+.wrap_payment .wrap_help .box_footer {
+    margin-top:0;
+    padding:20px;
+    border-right:1px solid #f3f3f3;
+    border-left:1px solid #f3f3f3;
+    border-top:none;
+    border-bottom:1px solid #f3f3f3;
+}
+
+.wrap_payment .wrap_section.col_2,
+.wrap_payment .wrap_section.wrap_txt_box,
+.wrap_payment .wrap_section {
+    border-top:1px solid #f3f3f3;
+    padding:30px 30px 0;
+}
+.wrap_payment .wrap_section.wrap_help {
+    border-top:none;
+}
+
+
+
+.dialog_body .wrap_payment .wrap_txt_box .box_body {
+    border:1px solid #f3f3f3;
+}
+.dialog_body .wrap_payment .wrap_help {
+    padding:0 30px 30px;
+    margin-bottom:0;
+}
+
+
+.dialog_body.type1 .wrap_payment {
+    margin:-20px 0 0;
+}
+.dialog_body.type1 .wrap_payment .wrap_help {
+/*    padding:0 30px 60px;*/
+    padding:30px 30px 60px;
+}
+/* ------------------------- 전시권 구매_다이얼로그 : End ------------------------- */
